@@ -16,7 +16,7 @@ if len(sys.argv) > 2:
 else:
     output_dir = None
 
-BASE_URL = u'http://direct.mapswithme.com/regular/daily/'
+BASE_URL = u'http://opensource-data.mapswithme.com/regular/weekly/'
 
 index_page = urllib2.urlopen(BASE_URL).read()
 
